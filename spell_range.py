@@ -26,7 +26,6 @@ def spell_range(folder_champion=folder_champion, folder_spell_image=folder_spell
         stX.subheader(champion)
         with open(folder_champion+"/"+champion+".json",encoding='utf-8') as f:
             data_champion = json.load(f)["data"][champion]
-
         attackrange = data_champion["stats"]["attackrange"]
         stX.write("Attack range : "+str(attackrange))
 
@@ -40,9 +39,11 @@ def spell_range(folder_champion=folder_champion, folder_spell_image=folder_spell
             if any([s!=spell['range'][0] for s in spell['range']]):
                 stX.write("range: "+str(spell['range']))
             else:
-                if spell['range'][0]==25000:
-                    spell['range'][0]="Global"
-                stX.write("range : "+str(spell['range'][0]))
+                if spell['range'][0]>20 and spell['range'][0]<20000 :
+                    stX.write("range : "+str(spell['range'][0]))
+                else :
+                    stX.write("X")
+                stX.write("CD : "+str(spell["cooldownBurn"]))
 
     for i, champion in enumerate(champions):
         plot_spell_img_and_range(champion, stX[i])
