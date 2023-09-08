@@ -5,7 +5,7 @@ import json
 import os
 from PIL import Image
 import requests
-
+import numpy as np
 
 folder_project = "."
 folder_champion = folder_project+"/champion"
@@ -14,6 +14,7 @@ url_spells = "http://ddragon.leagueoflegends.com/cdn/13.17.1/img/spell/"
 
 def spell_range(folder_champion=folder_champion, folder_spell_image=folder_spell_image, url_spells=url_spells):
     champions = [champion[:-5] for champion in os.listdir(folder_champion)]
+    champions = np.sort(champions)
 
     champions = st.multiselect("Champions :", champions)
     if len(champions)==0:
