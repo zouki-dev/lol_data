@@ -42,7 +42,10 @@ def spell_range(folder_champion=folder_champion, folder_spell_image=folder_spell
                 if spell['range'][0]>20 and spell['range'][0]<20000 :
                     stX.write("range : "+str(spell['range'][0]))
                 else :
-                    stX.write("X")
+                    if spell['range'][0]>=20000:
+                        stX.write("range :Global")
+                    else:
+                        stX.write("range : X")
                 stX.write("CD : "+str(spell["cooldownBurn"]))
 
     for i, champion in enumerate(champions):
