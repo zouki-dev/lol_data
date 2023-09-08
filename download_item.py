@@ -4,7 +4,7 @@ import os
 import requests
 import pandas as pd
 
-folder_project = "D:/python/lol_data"
+folder_project = "."
 folder_item = folder_project+"/item"
 url_item_all = "http://ddragon.leagueoflegends.com/cdn/13.17.1/data/en_US/item.json"
 url_item = "http://ddragon.leagueoflegends.com/cdn/13.17.1/img/item/"

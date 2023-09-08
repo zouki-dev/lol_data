@@ -7,7 +7,7 @@ from PIL import Image
 import requests
 
 
-folder_project = "D:/python/lol_data"
+folder_project = "."
 folder_champion = folder_project+"/champion"
 folder_spell_image = folder_project+"/spell_image"
 url_spells = "http://ddragon.leagueoflegends.com/cdn/13.17.1/img/spell/"

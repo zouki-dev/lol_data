@@ -4,7 +4,7 @@ import requests
 import json
 import streamlit as st
 
-folder_project = "D:/python/lol_data"
+folder_project = "."
 folder_champion = folder_project+"/champion"
 url_champion = "http://ddragon.leagueoflegends.com/cdn/13.17.1/data/en_US/champion/"
 url_file_champion_json = "http://ddragon.leagueoflegends.com/cdn/13.17.1/data/en_US/champion.json"
