@@ -2,7 +2,6 @@ import os.path
 
 import requests
 import json
-import simplejson
 import streamlit as st
 
 folder_project = "D:/python/lol_data"
