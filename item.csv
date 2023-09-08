@@ -1,0 +1,428 @@
+,item_name,item_gold,item_stat,path_item
+0,Boots,300,{'FlatMovementSpeedMod': 25},D:/python/lol_data/item/Boots
+1,Faerie Charm,250,{},D:/python/lol_data/item/Faerie Charm
+2,Rejuvenation Bead,300,{},D:/python/lol_data/item/Rejuvenation Bead
+3,Giant's Belt,500,{'FlatHPPoolMod': 350},D:/python/lol_data/item/Giant's Belt
+4,Cloak of Agility,600,{'FlatCritChanceMod': 0.15},D:/python/lol_data/item/Cloak of Agility
+5,Blasting Wand,850,{'FlatMagicDamageMod': 40},D:/python/lol_data/item/Blasting Wand
+6,Sapphire Crystal,350,{'FlatMPPoolMod': 250},D:/python/lol_data/item/Sapphire Crystal
+7,Ruby Crystal,400,{'FlatHPPoolMod': 150},D:/python/lol_data/item/Ruby Crystal
+8,Cloth Armor,300,{'FlatArmorMod': 15},D:/python/lol_data/item/Cloth Armor
+9,Chain Vest,500,{'FlatArmorMod': 40},D:/python/lol_data/item/Chain Vest
+10,Null-Magic Mantle,450,{'FlatSpellBlockMod': 25},D:/python/lol_data/item/Null-Magic Mantle
+11,Emberknife,350,{},D:/python/lol_data/item/Emberknife
+12,Long Sword,350,{'FlatPhysicalDamageMod': 10},D:/python/lol_data/item/Long Sword
+13,Pickaxe,875,{'FlatPhysicalDamageMod': 25},D:/python/lol_data/item/Pickaxe
+14,B. F. Sword,1300,{'FlatPhysicalDamageMod': 40},D:/python/lol_data/item/B. F. Sword
+15,Hailblade,350,{},D:/python/lol_data/item/Hailblade
+16,Obsidian Edge,350,{},D:/python/lol_data/item/Obsidian Edge
+17,Dagger,300,{'PercentAttackSpeedMod': 0.12},D:/python/lol_data/item/Dagger
+18,Recurve Bow,400,{'PercentAttackSpeedMod': 0.15},D:/python/lol_data/item/Recurve Bow
+19,Amplifying Tome,435,{'FlatMagicDamageMod': 20},D:/python/lol_data/item/Amplifying Tome
+20,Vampiric Scepter,550,"{'FlatPhysicalDamageMod': 15, 'PercentLifeStealMod': 0.07}",D:/python/lol_data/item/Vampiric Scepter
+21,Doran's Shield,450,"{'FlatHPPoolMod': 80, 'FlatHPRegenMod': 0.8}",D:/python/lol_data/item/Doran's Shield
+22,Doran's Blade,450,"{'FlatPhysicalDamageMod': 8, 'FlatHPPoolMod': 80}",D:/python/lol_data/item/Doran's Blade
+23,Doran's Ring,400,"{'FlatHPPoolMod': 70, 'FlatMagicDamageMod': 15}",D:/python/lol_data/item/Doran's Ring
+24,Negatron Cloak,450,{'FlatSpellBlockMod': 50},D:/python/lol_data/item/Negatron Cloak
+25,Needlessly Large Rod,1250,{'FlatMagicDamageMod': 60},D:/python/lol_data/item/Needlessly Large Rod
+26,Dark Seal,350,"{'FlatHPPoolMod': 40, 'FlatMagicDamageMod': 15}",D:/python/lol_data/item/Dark Seal
+27,Cull,450,{'FlatPhysicalDamageMod': 7},D:/python/lol_data/item/Cull
+28,Scorchclaw Pup,450,{},D:/python/lol_data/item/Scorchclaw Pup
+29,Gustwalker Hatchling,450,{},D:/python/lol_data/item/Gustwalker Hatchling
+30,Mosstomper Seedling,450,{},D:/python/lol_data/item/Mosstomper Seedling
+31,Eye of the Herald,0,{},D:/python/lol_data/item/Eye of the Herald
+32,Penetrating Bullets,0,{},D:/python/lol_data/item/Penetrating Bullets
+33,Fortification,0,{},D:/python/lol_data/item/Fortification
+34,Reinforced Armor,0,{},D:/python/lol_data/item/Reinforced Armor
+35,Warden's Eye,0,{},D:/python/lol_data/item/Warden's Eye
+36,Vanguard,0,{},D:/python/lol_data/item/Vanguard
+37,Reinforced Armor,0,{},D:/python/lol_data/item/Reinforced Armor
+38,Overcharged,0,{},D:/python/lol_data/item/Overcharged
+39,Anti-tower Socks,0,{},D:/python/lol_data/item/Anti-tower Socks
+40,Gusto,0,{},D:/python/lol_data/item/Gusto
+41,Phreakish Gusto,0,{},D:/python/lol_data/item/Phreakish Gusto
+42,Super Mech Armor,0,{},D:/python/lol_data/item/Super Mech Armor
+43,Super Mech Power Field,0,{},D:/python/lol_data/item/Super Mech Power Field
+44,Turret Plating,0,{},D:/python/lol_data/item/Turret Plating
+45,Structure Bounty,0,{},D:/python/lol_data/item/Structure Bounty
+46,Structure Bounty,0,{},D:/python/lol_data/item/Structure Bounty
+47,Structure Bounty,0,{},D:/python/lol_data/item/Structure Bounty
+48,Structure Bounty,0,{},D:/python/lol_data/item/Structure Bounty
+49,OvererchargedHA,0,{},D:/python/lol_data/item/OvererchargedHA
+50,Fortification,0,{},D:/python/lol_data/item/Fortification
+51,Tower Power-Up,0,{},D:/python/lol_data/item/Tower Power-Up
+52,Health Potion,50,{},D:/python/lol_data/item/Health Potion
+53,Total Biscuit of Everlasting Will,50,{},D:/python/lol_data/item/Total Biscuit of Everlasting Will
+54,Kircheis Shard,350,{'FlatPhysicalDamageMod': 15},D:/python/lol_data/item/Kircheis Shard
+55,Steel Sigil,225,{'FlatPhysicalDamageMod': 30},D:/python/lol_data/item/Steel Sigil
+56,Refillable Potion,150,{},D:/python/lol_data/item/Refillable Potion
+57,Corrupting Potion,350,{},D:/python/lol_data/item/Corrupting Potion
+58,Guardian's Amulet,1000,{'FlatMagicDamageMod': 20},D:/python/lol_data/item/Guardian's Amulet
+59,Guardian's Shroud,1000,"{'FlatHPPoolMod': 350, 'FlatMagicDamageMod': 30}",D:/python/lol_data/item/Guardian's Shroud
+60,Guardian's Horn,950,"{'FlatHPPoolMod': 150, 'FlatHPRegenMod': 4}",D:/python/lol_data/item/Guardian's Horn
+61,Poro-Snax,0,{},D:/python/lol_data/item/Poro-Snax
+62,Control Ward,75,{},D:/python/lol_data/item/Control Ward
+63,Shurelya's Battlesong,550,"{'FlatHPPoolMod': 200, 'FlatMagicDamageMod': 35}",D:/python/lol_data/item/Shurelya's Battlesong
+64,Elixir of Iron,500,{},D:/python/lol_data/item/Elixir of Iron
+65,Elixir of Sorcery,500,{},D:/python/lol_data/item/Elixir of Sorcery
+66,Elixir of Wrath,500,{},D:/python/lol_data/item/Elixir of Wrath
+67,Cappa Juice,700,{},D:/python/lol_data/item/Cappa Juice
+68,Juice of Power,700,{},D:/python/lol_data/item/Juice of Power
+69,Juice of Vitality,700,{},D:/python/lol_data/item/Juice of Vitality
+70,Juice of Haste,700,{},D:/python/lol_data/item/Juice of Haste
+71,Guardian's Horn,1000,"{'FlatHPPoolMod': 200, 'FlatHPRegenMod': 4}",D:/python/lol_data/item/Guardian's Horn
+72,Shurelya's Battlesong,3000,"{'FlatHPPoolMod': 500, 'FlatMagicDamageMod': 45}",D:/python/lol_data/item/Shurelya's Battlesong
+73,Evenshroud,3000,"{'FlatHPPoolMod': 300, 'FlatSpellBlockMod': 30, 'FlatArmorMod': 30}",D:/python/lol_data/item/Evenshroud
+74,Archangel's Staff,3000,"{'FlatHPPoolMod': 350, 'FlatMPPoolMod': 500, 'FlatMagicDamageMod': 60}",D:/python/lol_data/item/Archangel's Staff
+75,Manamune,3000,"{'FlatPhysicalDamageMod': 45, 'FlatMPPoolMod': 500}",D:/python/lol_data/item/Manamune
+76,Berserker's Greaves,1000,"{'FlatMovementSpeedMod': 30, 'PercentAttackSpeedMod': 0.45}",D:/python/lol_data/item/Berserker's Greaves
+77,Boots of Swiftness,1000,{'FlatMovementSpeedMod': 70},D:/python/lol_data/item/Boots of Swiftness
+78,Chemtech Putrifier,3000,{'FlatMagicDamageMod': 40},D:/python/lol_data/item/Chemtech Putrifier
+79,Sorcerer's Shoes,1000,{'FlatMovementSpeedMod': 55},D:/python/lol_data/item/Sorcerer's Shoes
+80,Guardian Angel,3000,"{'FlatPhysicalDamageMod': 45, 'FlatArmorMod': 40}",D:/python/lol_data/item/Guardian Angel
+81,Infinity Edge,3000,"{'FlatPhysicalDamageMod': 65, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Infinity Edge
+82,Mortal Reminder,3000,"{'FlatPhysicalDamageMod': 45, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Mortal Reminder
+83,Lord Dominik's Regards,3000,"{'FlatPhysicalDamageMod': 35, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Lord Dominik's Regards
+84,Seraph's Embrace,3000,"{'FlatHPPoolMod': 350, 'FlatMPPoolMod': 860, 'FlatMagicDamageMod': 70}",D:/python/lol_data/item/Seraph's Embrace
+85,Muramana,3000,"{'FlatPhysicalDamageMod': 45, 'FlatMPPoolMod': 860}",D:/python/lol_data/item/Muramana
+86,Phantom Dancer,3000,"{'FlatPhysicalDamageMod': 20, 'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.3}",D:/python/lol_data/item/Phantom Dancer
+87,Plated Steelcaps,1000,"{'FlatMovementSpeedMod': 30, 'FlatArmorMod': 25}",D:/python/lol_data/item/Plated Steelcaps
+88,Zeke's Convergence,3000,"{'FlatHPPoolMod': 400, 'FlatMPPoolMod': 250, 'FlatArmorMod': 40}",D:/python/lol_data/item/Zeke's Convergence
+89,Sterak's Gage,3000,{'FlatHPPoolMod': 350},D:/python/lol_data/item/Sterak's Gage
+90,Spirit Visage,3000,"{'FlatHPPoolMod': 400, 'FlatSpellBlockMod': 40}",D:/python/lol_data/item/Spirit Visage
+91,Sunfire Aegis,3000,"{'FlatHPPoolMod': 500, 'FlatArmorMod': 50}",D:/python/lol_data/item/Sunfire Aegis
+92,Black Cleaver,3000,"{'FlatPhysicalDamageMod': 50, 'FlatHPPoolMod': 400}",D:/python/lol_data/item/Black Cleaver
+93,Bloodthirster,3000,"{'FlatPhysicalDamageMod': 50, 'FlatCritChanceMod': 0.2, 'PercentLifeStealMod': 0.18}",D:/python/lol_data/item/Bloodthirster
+94,Ravenous Hydra,3000,"{'FlatPhysicalDamageMod': 65, 'PercentLifeStealMod': 0.15}",D:/python/lol_data/item/Ravenous Hydra
+95,Thornmail,3000,"{'FlatHPPoolMod': 350, 'FlatArmorMod': 70}",D:/python/lol_data/item/Thornmail
+96,Trinity Force,3000,"{'FlatPhysicalDamageMod': 30, 'FlatHPPoolMod': 200, 'PercentAttackSpeedMod': 0.33}",D:/python/lol_data/item/Trinity Force
+97,Heartsteel,3000,{'FlatHPPoolMod': 800},D:/python/lol_data/item/Heartsteel
+98,Runaan's Hurricane,3000,"{'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.55}",D:/python/lol_data/item/Runaan's Hurricane
+99,Statikk Shiv,3000,"{'FlatPhysicalDamageMod': 45, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.3}",D:/python/lol_data/item/Statikk Shiv
+100,Rabadon's Deathcap,3000,{'FlatMagicDamageMod': 80},D:/python/lol_data/item/Rabadon's Deathcap
+101,Wit's End,3000,"{'FlatPhysicalDamageMod': 40, 'FlatSpellBlockMod': 40, 'PercentAttackSpeedMod': 0.4}",D:/python/lol_data/item/Wit's End
+102,Rapid Firecannon,3000,"{'FlatPhysicalDamageMod': 30, 'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.15}",D:/python/lol_data/item/Rapid Firecannon
+103,Stormrazor,3000,"{'FlatPhysicalDamageMod': 50, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.15}",D:/python/lol_data/item/Stormrazor
+104,Lich Bane,3000,"{'PercentMovementSpeedMod': 0.1, 'FlatMagicDamageMod': 85}",D:/python/lol_data/item/Lich Bane
+105,Banshee's Veil,3000,"{'FlatSpellBlockMod': 55, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Banshee's Veil
+106,Redemption,3000,{'FlatHPPoolMod': 300},D:/python/lol_data/item/Redemption
+107,Knight's Vow,3000,"{'FlatHPPoolMod': 500, 'FlatArmorMod': 25}",D:/python/lol_data/item/Knight's Vow
+108,Frozen Heart,3000,"{'FlatMPPoolMod': 400, 'FlatArmorMod': 100}",D:/python/lol_data/item/Frozen Heart
+109,Mercury's Treads,1000,"{'FlatMovementSpeedMod': 30, 'FlatSpellBlockMod': 35}",D:/python/lol_data/item/Mercury's Treads
+110,Guardian's Orb,1000,{'FlatMagicDamageMod': 65},D:/python/lol_data/item/Guardian's Orb
+111,Nashor's Tooth,3000,"{'FlatMagicDamageMod': 100, 'PercentAttackSpeedMod': 0.45}",D:/python/lol_data/item/Nashor's Tooth
+112,Rylai's Crystal Scepter,3000,"{'FlatHPPoolMod': 475, 'FlatMagicDamageMod': 85}",D:/python/lol_data/item/Rylai's Crystal Scepter
+113,Winter's Approach,3000,"{'FlatHPPoolMod': 400, 'FlatMPPoolMod': 500}",D:/python/lol_data/item/Winter's Approach
+114,Fimbulwinter,3000,"{'FlatHPPoolMod': 500, 'FlatMPPoolMod': 860}",D:/python/lol_data/item/Fimbulwinter
+115,Guinsoo's Rageblade,3000,"{'FlatPhysicalDamageMod': 25, 'FlatMagicDamageMod': 25, 'PercentAttackSpeedMod': 0.3}",D:/python/lol_data/item/Guinsoo's Rageblade
+116,Void Staff,3000,{'FlatMagicDamageMod': 75},D:/python/lol_data/item/Void Staff
+117,Mercurial Scimitar,3000,"{'FlatPhysicalDamageMod': 40, 'FlatCritChanceMod': 0.2, 'FlatSpellBlockMod': 50}",D:/python/lol_data/item/Mercurial Scimitar
+118,Youmuu's Ghostblade,3000,{'FlatPhysicalDamageMod': 65},D:/python/lol_data/item/Youmuu's Ghostblade
+119,Randuin's Omen,3000,"{'FlatHPPoolMod': 400, 'FlatArmorMod': 60}",D:/python/lol_data/item/Randuin's Omen
+120,Hextech Rocketbelt,3000,"{'FlatHPPoolMod': 400, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Hextech Rocketbelt
+121,Blade of The Ruined King,3000,"{'FlatPhysicalDamageMod': 40, 'PercentAttackSpeedMod': 0.25, 'PercentLifeStealMod': 0.08}",D:/python/lol_data/item/Blade of The Ruined King
+122,Maw of Malmortius,3000,"{'FlatPhysicalDamageMod': 65, 'FlatSpellBlockMod': 50}",D:/python/lol_data/item/Maw of Malmortius
+123,Zhonya's Hourglass,3000,"{'FlatMagicDamageMod': 80, 'FlatArmorMod': 45}",D:/python/lol_data/item/Zhonya's Hourglass
+124,Ionian Boots of Lucidity,1000,{'FlatMovementSpeedMod': 45},D:/python/lol_data/item/Ionian Boots of Lucidity
+125,Spear Of Shojin,3000,"{'FlatPhysicalDamageMod': 60, 'FlatHPPoolMod': 200}",D:/python/lol_data/item/Spear Of Shojin
+126,Morellonomicon,3000,"{'FlatHPPoolMod': 250, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Morellonomicon
+127,Guardian's Blade,1000,"{'FlatPhysicalDamageMod': 25, 'FlatHPPoolMod': 300}",D:/python/lol_data/item/Guardian's Blade
+128,Hullbreaker,3000,"{'FlatPhysicalDamageMod': 60, 'PercentMovementSpeedMod': 0.05, 'FlatHPPoolMod': 500}",D:/python/lol_data/item/Hullbreaker
+129,Guardian's Hammer,1000,"{'FlatPhysicalDamageMod': 30, 'PercentAttackSpeedMod': 0.35, 'PercentLifeStealMod': 0.1}",D:/python/lol_data/item/Guardian's Hammer
+130,Guardian's Dirk,1000,{'FlatPhysicalDamageMod': 30},D:/python/lol_data/item/Guardian's Dirk
+131,Locket of the Iron Solari,3000,"{'FlatHPPoolMod': 400, 'FlatSpellBlockMod': 30, 'FlatArmorMod': 30}",D:/python/lol_data/item/Locket of the Iron Solari
+132,Gargoyle Stoneplate,3000,"{'FlatSpellBlockMod': 35, 'FlatArmorMod': 35}",D:/python/lol_data/item/Gargoyle Stoneplate
+133,Mikael's Blessing,3000,{'FlatHPPoolMod': 400},D:/python/lol_data/item/Mikael's Blessing
+134,Ardent Censer,3000,"{'PercentMovementSpeedMod': 0.05, 'FlatMagicDamageMod': 35}",D:/python/lol_data/item/Ardent Censer
+135,Essence Reaver,3000,"{'FlatPhysicalDamageMod': 55, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Essence Reaver
+136,Dead Man's Plate,3000,"{'PercentMovementSpeedMod': 0.07, 'FlatHPPoolMod': 350, 'FlatArmorMod': 50}",D:/python/lol_data/item/Dead Man's Plate
+137,Titanic Hydra,3000,"{'FlatPhysicalDamageMod': 30, 'FlatHPPoolMod': 500}",D:/python/lol_data/item/Titanic Hydra
+138,Edge of Night,3000,"{'FlatPhysicalDamageMod': 55, 'FlatHPPoolMod': 400}",D:/python/lol_data/item/Edge of Night
+139,Imperial Mandate,3000,{'FlatMagicDamageMod': 55},D:/python/lol_data/item/Imperial Mandate
+140,Force of Nature,3000,"{'PercentMovementSpeedMod': 0.05, 'FlatHPPoolMod': 400, 'FlatSpellBlockMod': 60}",D:/python/lol_data/item/Force of Nature
+141,The Golden Spatula,687,"{'FlatPhysicalDamageMod': 70, 'FlatCritChanceMod': 0.3, 'PercentMovementSpeedMod': 0.1, 'FlatHPPoolMod': 250, 'FlatSpellBlockMod': 30, 'FlatMPPoolMod': 250, 'FlatMagicDamageMod': 120, 'FlatArmorMod': 30, 'PercentAttackSpeedMod': 0.5, 'PercentLifeStealMod': 0.1}",D:/python/lol_data/item/The Golden Spatula
+142,Horizon Focus,3000,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Horizon Focus
+143,Cosmic Drive,3000,"{'PercentMovementSpeedMod': 0.05, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Cosmic Drive
+144,Riftmaker,3000,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 70}",D:/python/lol_data/item/Riftmaker
+145,Night Harvester,3000,"{'FlatHPPoolMod': 400, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Night Harvester
+146,Demonic Embrace,3000,"{'FlatHPPoolMod': 350, 'FlatMagicDamageMod': 75}",D:/python/lol_data/item/Demonic Embrace
+147,Crown of the Shattered Queen,3000,"{'FlatHPPoolMod': 250, 'FlatMPPoolMod': 600, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Crown of the Shattered Queen
+148,Shadowflame,3000,"{'FlatHPPoolMod': 200, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Shadowflame
+149,Silvermere Dawn,3000,"{'FlatPhysicalDamageMod': 40, 'FlatHPPoolMod': 400, 'FlatSpellBlockMod': 40}",D:/python/lol_data/item/Silvermere Dawn
+150,Death's Dance,3000,"{'FlatPhysicalDamageMod': 55, 'FlatArmorMod': 45}",D:/python/lol_data/item/Death's Dance
+151,Chempunk Chainsword,3000,"{'FlatPhysicalDamageMod': 55, 'FlatHPPoolMod': 400}",D:/python/lol_data/item/Chempunk Chainsword
+152,Staff of Flowing Water,3000,"{'PercentMovementSpeedMod': 0.15, 'FlatMagicDamageMod': 35}",D:/python/lol_data/item/Staff of Flowing Water
+153,Moonstone Renewer,3000,"{'FlatHPPoolMod': 200, 'FlatMagicDamageMod': 45}",D:/python/lol_data/item/Moonstone Renewer
+154,Echoes of Helia,3000,"{'FlatHPPoolMod': 200, 'FlatMagicDamageMod': 30}",D:/python/lol_data/item/Echoes of Helia
+155,Goredrinker,3000,"{'FlatPhysicalDamageMod': 55, 'FlatHPPoolMod': 400}",D:/python/lol_data/item/Goredrinker
+156,Stridebreaker,3000,"{'FlatPhysicalDamageMod': 50, 'FlatHPPoolMod': 375, 'PercentAttackSpeedMod': 0.2}",D:/python/lol_data/item/Stridebreaker
+157,Divine Sunderer,3000,"{'FlatPhysicalDamageMod': 35, 'FlatHPPoolMod': 200}",D:/python/lol_data/item/Divine Sunderer
+158,Liandry's Anguish,3000,"{'FlatMPPoolMod': 600, 'FlatMagicDamageMod': 70}",D:/python/lol_data/item/Liandry's Anguish
+159,Luden's Tempest,3000,"{'FlatMPPoolMod': 600, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Luden's Tempest
+160,Everfrost,3000,"{'FlatHPPoolMod': 400, 'FlatMPPoolMod': 600, 'FlatMagicDamageMod': 70}",D:/python/lol_data/item/Everfrost
+161,Rod of Ages,3000,"{'FlatHPPoolMod': 400, 'FlatMPPoolMod': 400, 'FlatMagicDamageMod': 70}",D:/python/lol_data/item/Rod of Ages
+162,Iceborn Gauntlet,3000,"{'FlatHPPoolMod': 400, 'FlatArmorMod': 50}",D:/python/lol_data/item/Iceborn Gauntlet
+163,Turbo Chemtank,3000,"{'FlatHPPoolMod': 600, 'FlatSpellBlockMod': 50}",D:/python/lol_data/item/Turbo Chemtank
+164,"Jak'Sho, The Protean",3000,"{'FlatHPPoolMod': 300, 'FlatSpellBlockMod': 30, 'FlatArmorMod': 30}","D:/python/lol_data/item/Jak'Sho, The Protean"
+165,Radiant Virtue,3000,"{'FlatHPPoolMod': 350, 'FlatSpellBlockMod': 30, 'FlatArmorMod': 30}",D:/python/lol_data/item/Radiant Virtue
+166,Galeforce,3000,"{'FlatPhysicalDamageMod': 55, 'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.25}",D:/python/lol_data/item/Galeforce
+167,Kraken Slayer,3000,"{'FlatPhysicalDamageMod': 40, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.3}",D:/python/lol_data/item/Kraken Slayer
+168,Immortal Shieldbow,3000,"{'FlatPhysicalDamageMod': 50, 'FlatCritChanceMod': 0.2, 'PercentLifeStealMod': 0.1}",D:/python/lol_data/item/Immortal Shieldbow
+169,Navori Quickblades,3000,"{'FlatPhysicalDamageMod': 55, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Navori Quickblades
+170,The Collector,3000,"{'FlatPhysicalDamageMod': 55, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/The Collector
+171,Duskblade of Draktharr,3000,{'FlatPhysicalDamageMod': 60},D:/python/lol_data/item/Duskblade of Draktharr
+172,Eclipse,3000,{'FlatPhysicalDamageMod': 50},D:/python/lol_data/item/Eclipse
+173,Prowler's Claw,3000,{'FlatPhysicalDamageMod': 60},D:/python/lol_data/item/Prowler's Claw
+174,Serylda's Grudge,3000,{'FlatPhysicalDamageMod': 45},D:/python/lol_data/item/Serylda's Grudge
+175,Serpent's Fang,3000,{'FlatPhysicalDamageMod': 70},D:/python/lol_data/item/Serpent's Fang
+176,Axiom Arc,3000,{'FlatPhysicalDamageMod': 60},D:/python/lol_data/item/Axiom Arc
+177,Syzygy,0,{'FlatPhysicalDamageMod': 70},D:/python/lol_data/item/Syzygy
+178,Draktharr's Shadowcarver,0,{'FlatPhysicalDamageMod': 75},D:/python/lol_data/item/Draktharr's Shadowcarver
+179,Frozen Fist,0,"{'FlatHPPoolMod': 550, 'FlatArmorMod': 70}",D:/python/lol_data/item/Frozen Fist
+180,Typhoon,0,"{'FlatPhysicalDamageMod': 70, 'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.1, 'PercentAttackSpeedMod': 0.4}",D:/python/lol_data/item/Typhoon
+181,Icathia's Curse,0,"{'FlatHPPoolMod': 450, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Icathia's Curse
+182,Vespertide,0,"{'FlatHPPoolMod': 500, 'FlatMagicDamageMod': 120}",D:/python/lol_data/item/Vespertide
+183,Upgraded Aeropack,0,"{'FlatHPPoolMod': 500, 'FlatMagicDamageMod': 120}",D:/python/lol_data/item/Upgraded Aeropack
+184,Liandry's Lament,0,"{'FlatMPPoolMod': 800, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Liandry's Lament
+185,Eye of Luden,0,"{'FlatMPPoolMod': 800, 'FlatMagicDamageMod': 120}",D:/python/lol_data/item/Eye of Luden
+186,Eternal Winter,0,"{'FlatHPPoolMod': 550, 'FlatMPPoolMod': 800, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Eternal Winter
+187,Ceaseless Hunger,0,"{'FlatPhysicalDamageMod': 65, 'FlatHPPoolMod': 600}",D:/python/lol_data/item/Ceaseless Hunger
+188,Dreamshatter,0,"{'FlatPhysicalDamageMod': 60, 'FlatHPPoolMod': 400, 'PercentAttackSpeedMod': 0.3}",D:/python/lol_data/item/Dreamshatter
+189,Deicide,0,"{'FlatPhysicalDamageMod': 55, 'FlatHPPoolMod': 350}",D:/python/lol_data/item/Deicide
+190,Infinity Force,0,"{'FlatPhysicalDamageMod': 40, 'FlatHPPoolMod': 300, 'PercentAttackSpeedMod': 0.45}",D:/python/lol_data/item/Infinity Force
+191,Reliquary of the Golden Dawn,0,"{'FlatHPPoolMod': 600, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",D:/python/lol_data/item/Reliquary of the Golden Dawn
+192,Shurelya's Requiem,0,"{'FlatHPPoolMod': 600, 'FlatMagicDamageMod': 75}",D:/python/lol_data/item/Shurelya's Requiem
+193,Starcaster,0,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 80}",D:/python/lol_data/item/Starcaster
+194,Equinox,0,"{'FlatHPPoolMod': 500, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",D:/python/lol_data/item/Equinox
+195,Caesura,0,"{'FlatHPPoolMod': 350, 'FlatMPPoolMod': 800, 'FlatMagicDamageMod': 120}",D:/python/lol_data/item/Caesura
+196,Leviathan,0,{'FlatHPPoolMod': 1050},D:/python/lol_data/item/Leviathan
+197,The Unspoken Parasite,0,"{'FlatHPPoolMod': 450, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",D:/python/lol_data/item/The Unspoken Parasite
+198,Primordial Dawn,0,"{'FlatHPPoolMod': 550, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",D:/python/lol_data/item/Primordial Dawn
+199,Infinite Convergence,0,"{'FlatHPPoolMod': 550, 'FlatMPPoolMod': 550, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Infinite Convergence
+200,Youmuu's Wake,0,{'FlatPhysicalDamageMod': 75},D:/python/lol_data/item/Youmuu's Wake
+201,Seething Sorrow,0,"{'FlatPhysicalDamageMod': 35, 'FlatMagicDamageMod': 35, 'PercentAttackSpeedMod': 0.4}",D:/python/lol_data/item/Seething Sorrow
+202,Edge of Finality,0,"{'FlatPhysicalDamageMod': 105, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Edge of Finality
+203,Flicker,0,"{'FlatPhysicalDamageMod': 90, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Flicker
+204,Cry of the Shrieking City,0,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 60}",D:/python/lol_data/item/Cry of the Shrieking City
+205,Anathema's Chains,3000,{'FlatHPPoolMod': 650},D:/python/lol_data/item/Anathema's Chains
+206,Abyssal Mask,3000,"{'FlatHPPoolMod': 350, 'FlatSpellBlockMod': 60}",D:/python/lol_data/item/Abyssal Mask
+207,Minion Dematerializer,0,{},D:/python/lol_data/item/Minion Dematerializer
+208,Commencing Stopwatch,0,{},D:/python/lol_data/item/Commencing Stopwatch
+209,Stopwatch,750,{},D:/python/lol_data/item/Stopwatch
+210,Broken Stopwatch,750,{},D:/python/lol_data/item/Broken Stopwatch
+211,Slightly Magical Footwear,300,{'FlatMovementSpeedMod': 25},D:/python/lol_data/item/Slightly Magical Footwear
+212,Perfectly Timed Stopwatch,750,{},D:/python/lol_data/item/Perfectly Timed Stopwatch
+213,Broken Stopwatch,750,{},D:/python/lol_data/item/Broken Stopwatch
+214,Evenshroud,800,"{'FlatHPPoolMod': 200, 'FlatSpellBlockMod': 30, 'FlatArmorMod': 30}",D:/python/lol_data/item/Evenshroud
+215,Archangel's Staff,550,"{'FlatHPPoolMod': 200, 'FlatMPPoolMod': 500, 'FlatMagicDamageMod': 70}",D:/python/lol_data/item/Archangel's Staff
+216,Manamune,1050,"{'FlatPhysicalDamageMod': 35, 'FlatMPPoolMod': 500}",D:/python/lol_data/item/Manamune
+217,Ghostcrawlers,1000,{'FlatMovementSpeedMod': 55},D:/python/lol_data/item/Ghostcrawlers
+218,Berserker's Greaves,500,"{'FlatMovementSpeedMod': 45, 'PercentAttackSpeedMod': 0.35}",D:/python/lol_data/item/Berserker's Greaves
+219,Boots of Swiftness,600,{'FlatMovementSpeedMod': 60},D:/python/lol_data/item/Boots of Swiftness
+220,Chemtech Putrifier,500,{'FlatMagicDamageMod': 35},D:/python/lol_data/item/Chemtech Putrifier
+221,Chalice of Blessing,300,{'FlatHPPoolMod': 200},D:/python/lol_data/item/Chalice of Blessing
+222,Sorcerer's Shoes,800,{'FlatMovementSpeedMod': 45},D:/python/lol_data/item/Sorcerer's Shoes
+223,Lifewell Pendant,350,"{'FlatHPPoolMod': 150, 'FlatArmorMod': 25}",D:/python/lol_data/item/Lifewell Pendant
+224,Glacial Buckler,250,"{'FlatMPPoolMod': 250, 'FlatArmorMod': 20}",D:/python/lol_data/item/Glacial Buckler
+225,Guardian Angel,150,"{'FlatPhysicalDamageMod': 45, 'FlatArmorMod': 40}",D:/python/lol_data/item/Guardian Angel
+226,Infinity Edge,625,"{'FlatPhysicalDamageMod': 65, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Infinity Edge
+227,Mortal Reminder,150,"{'FlatPhysicalDamageMod': 40, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Mortal Reminder
+228,Last Whisper,750,{'FlatPhysicalDamageMod': 20},D:/python/lol_data/item/Last Whisper
+229,Lord Dominik's Regards,950,"{'FlatPhysicalDamageMod': 35, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Lord Dominik's Regards
+230,Atma's Reckoning,3000,"{'FlatCritChanceMod': 0.2, 'FlatHPPoolMod': 700}",D:/python/lol_data/item/Atma's Reckoning
+231,Seraph's Embrace,3000,"{'FlatHPPoolMod': 200, 'FlatMPPoolMod': 860, 'FlatMagicDamageMod': 70}",D:/python/lol_data/item/Seraph's Embrace
+232,Mejai's Soulstealer,1250,"{'FlatHPPoolMod': 100, 'FlatMagicDamageMod': 20}",D:/python/lol_data/item/Mejai's Soulstealer
+233,Muramana,3000,"{'FlatPhysicalDamageMod': 35, 'FlatMPPoolMod': 860}",D:/python/lol_data/item/Muramana
+234,Phage,350,"{'FlatPhysicalDamageMod': 15, 'FlatHPPoolMod': 200}",D:/python/lol_data/item/Phage
+235,Phantom Dancer,600,"{'FlatPhysicalDamageMod': 20, 'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.35}",D:/python/lol_data/item/Phantom Dancer
+236,Plated Steelcaps,500,"{'FlatMovementSpeedMod': 45, 'FlatArmorMod': 20}",D:/python/lol_data/item/Plated Steelcaps
+237,Zeke's Convergence,250,"{'FlatHPPoolMod': 200, 'FlatMPPoolMod': 250, 'FlatArmorMod': 45}",D:/python/lol_data/item/Zeke's Convergence
+238,Hearthbound Axe,100,"{'FlatPhysicalDamageMod': 20, 'PercentAttackSpeedMod': 0.15}",D:/python/lol_data/item/Hearthbound Axe
+239,Sterak's Gage,625,{'FlatHPPoolMod': 450},D:/python/lol_data/item/Sterak's Gage
+240,Sheen,700,{},D:/python/lol_data/item/Sheen
+241,Spirit Visage,850,"{'FlatHPPoolMod': 450, 'FlatSpellBlockMod': 60}",D:/python/lol_data/item/Spirit Visage
+242,Winged Moonplate,400,{'FlatHPPoolMod': 150},D:/python/lol_data/item/Winged Moonplate
+243,Kindlegem,400,{'FlatHPPoolMod': 200},D:/python/lol_data/item/Kindlegem
+244,Sunfire Aegis,900,"{'FlatHPPoolMod': 500, 'FlatArmorMod': 50}",D:/python/lol_data/item/Sunfire Aegis
+245,Tear of the Goddess,400,{'FlatMPPoolMod': 240},D:/python/lol_data/item/Tear of the Goddess
+246,Black Cleaver,850,"{'FlatPhysicalDamageMod': 50, 'FlatHPPoolMod': 400}",D:/python/lol_data/item/Black Cleaver
+247,Bloodthirster,600,"{'FlatPhysicalDamageMod': 55, 'FlatCritChanceMod': 0.2, 'PercentLifeStealMod': 0.18}",D:/python/lol_data/item/Bloodthirster
+248,Ravenous Hydra,200,"{'FlatPhysicalDamageMod': 65, 'PercentLifeStealMod': 0.1}",D:/python/lol_data/item/Ravenous Hydra
+249,Thornmail,1000,"{'FlatHPPoolMod': 350, 'FlatArmorMod': 70}",D:/python/lol_data/item/Thornmail
+250,Bramble Vest,200,{'FlatArmorMod': 30},D:/python/lol_data/item/Bramble Vest
+251,Tiamat,325,{'FlatPhysicalDamageMod': 25},D:/python/lol_data/item/Tiamat
+252,Trinity Force,733,"{'FlatPhysicalDamageMod': 40, 'FlatHPPoolMod': 300, 'PercentAttackSpeedMod': 0.33}",D:/python/lol_data/item/Trinity Force
+253,Warden's Mail,400,{'FlatArmorMod': 40},D:/python/lol_data/item/Warden's Mail
+254,Warmog's Armor,500,{'FlatHPPoolMod': 800},D:/python/lol_data/item/Warmog's Armor
+255,Heartsteel,700,{'FlatHPPoolMod': 800},D:/python/lol_data/item/Heartsteel
+256,Runaan's Hurricane,1000,"{'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.4}",D:/python/lol_data/item/Runaan's Hurricane
+257,Zeal,200,"{'FlatCritChanceMod': 0.15, 'PercentMovementSpeedMod': 0.05, 'PercentAttackSpeedMod': 0.15}",D:/python/lol_data/item/Zeal
+258,Statikk Shiv,400,"{'FlatPhysicalDamageMod': 45, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.3}",D:/python/lol_data/item/Statikk Shiv
+259,Rabadon's Deathcap,1100,{'FlatMagicDamageMod': 120},D:/python/lol_data/item/Rabadon's Deathcap
+260,Wit's End,950,"{'FlatPhysicalDamageMod': 40, 'FlatSpellBlockMod': 40, 'PercentAttackSpeedMod': 0.4}",D:/python/lol_data/item/Wit's End
+261,Rapid Firecannon,850,"{'FlatPhysicalDamageMod': 30, 'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.15}",D:/python/lol_data/item/Rapid Firecannon
+262,Stormrazor,400,"{'FlatPhysicalDamageMod': 50, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.15}",D:/python/lol_data/item/Stormrazor
+263,Lich Bane,550,"{'PercentMovementSpeedMod': 0.08, 'FlatMagicDamageMod': 85}",D:/python/lol_data/item/Lich Bane
+264,Banshee's Veil,700,"{'FlatSpellBlockMod': 45, 'FlatMagicDamageMod': 80}",D:/python/lol_data/item/Banshee's Veil
+265,Aegis of the Legion,450,"{'FlatSpellBlockMod': 30, 'FlatArmorMod': 30}",D:/python/lol_data/item/Aegis of the Legion
+266,Redemption,550,{'FlatHPPoolMod': 250},D:/python/lol_data/item/Redemption
+267,Fiendish Codex,465,{'FlatMagicDamageMod': 35},D:/python/lol_data/item/Fiendish Codex
+268,Knight's Vow,350,"{'FlatHPPoolMod': 350, 'FlatArmorMod': 25}",D:/python/lol_data/item/Knight's Vow
+269,Frozen Heart,800,"{'FlatMPPoolMod': 400, 'FlatArmorMod': 90}",D:/python/lol_data/item/Frozen Heart
+270,Mercury's Treads,350,"{'FlatMovementSpeedMod': 45, 'FlatSpellBlockMod': 25}",D:/python/lol_data/item/Mercury's Treads
+271,Guardian's Orb,950,"{'FlatHPPoolMod': 150, 'FlatMagicDamageMod': 50}",D:/python/lol_data/item/Guardian's Orb
+272,Aether Wisp,415,{'FlatMagicDamageMod': 30},D:/python/lol_data/item/Aether Wisp
+273,Forbidden Idol,550,{},D:/python/lol_data/item/Forbidden Idol
+274,Nashor's Tooth,750,"{'FlatMagicDamageMod': 100, 'PercentAttackSpeedMod': 0.5}",D:/python/lol_data/item/Nashor's Tooth
+275,Rylai's Crystal Scepter,415,"{'FlatHPPoolMod': 400, 'FlatMagicDamageMod': 75}",D:/python/lol_data/item/Rylai's Crystal Scepter
+276,Mobility Boots,700,{'FlatMovementSpeedMod': 115},D:/python/lol_data/item/Mobility Boots
+277,Winter's Approach,1000,"{'FlatHPPoolMod': 400, 'FlatMPPoolMod': 500}",D:/python/lol_data/item/Winter's Approach
+278,Fimbulwinter,2700,"{'FlatHPPoolMod': 400, 'FlatMPPoolMod': 860}",D:/python/lol_data/item/Fimbulwinter
+279,Executioner's Calling,450,{'FlatPhysicalDamageMod': 15},D:/python/lol_data/item/Executioner's Calling
+280,Guinsoo's Rageblade,690,"{'FlatPhysicalDamageMod': 30, 'FlatMagicDamageMod': 30, 'PercentAttackSpeedMod': 0.25}",D:/python/lol_data/item/Guinsoo's Rageblade
+281,Deathfire Grasp,3000,{'FlatMagicDamageMod': 90},D:/python/lol_data/item/Deathfire Grasp
+282,Caulfield's Warhammer,400,{'FlatPhysicalDamageMod': 25},D:/python/lol_data/item/Caulfield's Warhammer
+283,Serrated Dirk,400,{'FlatPhysicalDamageMod': 30},D:/python/lol_data/item/Serrated Dirk
+284,Void Staff,700,{'FlatMagicDamageMod': 65},D:/python/lol_data/item/Void Staff
+285,Mercurial Scimitar,225,"{'FlatPhysicalDamageMod': 40, 'FlatCritChanceMod': 0.2, 'FlatSpellBlockMod': 50}",D:/python/lol_data/item/Mercurial Scimitar
+286,Quicksilver Sash,850,{'FlatSpellBlockMod': 30},D:/python/lol_data/item/Quicksilver Sash
+287,Youmuu's Ghostblade,900,{'FlatPhysicalDamageMod': 60},D:/python/lol_data/item/Youmuu's Ghostblade
+288,Randuin's Omen,1100,"{'FlatHPPoolMod': 400, 'FlatArmorMod': 60}",D:/python/lol_data/item/Randuin's Omen
+289,Hextech Alternator,215,"{'FlatHPPoolMod': 150, 'FlatMagicDamageMod': 25}",D:/python/lol_data/item/Hextech Alternator
+290,Hextech Gunblade,3000,"{'FlatPhysicalDamageMod': 40, 'FlatMagicDamageMod': 80}",D:/python/lol_data/item/Hextech Gunblade
+291,Hextech Rocketbelt,865,"{'FlatHPPoolMod': 250, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Hextech Rocketbelt
+292,Blade of The Ruined King,825,"{'FlatPhysicalDamageMod': 40, 'PercentAttackSpeedMod': 0.25, 'PercentLifeStealMod': 0.08}",D:/python/lol_data/item/Blade of The Ruined King
+293,Hexdrinker,500,"{'FlatPhysicalDamageMod': 25, 'FlatSpellBlockMod': 35}",D:/python/lol_data/item/Hexdrinker
+294,Maw of Malmortius,275,"{'FlatPhysicalDamageMod': 65, 'FlatSpellBlockMod': 50}",D:/python/lol_data/item/Maw of Malmortius
+295,Zhonya's Hourglass,350,"{'FlatMagicDamageMod': 80, 'FlatArmorMod': 45}",D:/python/lol_data/item/Zhonya's Hourglass
+296,Ionian Boots of Lucidity,650,{'FlatMovementSpeedMod': 45},D:/python/lol_data/item/Ionian Boots of Lucidity
+297,Spear Of Shojin,525,"{'FlatPhysicalDamageMod': 60, 'FlatHPPoolMod': 500}",D:/python/lol_data/item/Spear Of Shojin
+298,Morellonomicon,715,"{'FlatHPPoolMod': 200, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Morellonomicon
+299,Zephyr,3000,"{'PercentMovementSpeedMod': 0.1, 'PercentAttackSpeedMod': 0.5}",D:/python/lol_data/item/Zephyr
+300,Guardian's Blade,950,"{'FlatPhysicalDamageMod': 30, 'FlatHPPoolMod': 150}",D:/python/lol_data/item/Guardian's Blade
+301,Umbral Glaive,500,{'FlatPhysicalDamageMod': 50},D:/python/lol_data/item/Umbral Glaive
+302,Hullbreaker,225,"{'FlatPhysicalDamageMod': 60, 'PercentMovementSpeedMod': 0.05, 'FlatHPPoolMod': 400}",D:/python/lol_data/item/Hullbreaker
+303,Guardian's Hammer,950,"{'FlatPhysicalDamageMod': 25, 'FlatHPPoolMod': 150, 'PercentLifeStealMod': 0.07}",D:/python/lol_data/item/Guardian's Hammer
+304,Locket of the Iron Solari,800,"{'FlatHPPoolMod': 200, 'FlatSpellBlockMod': 30, 'FlatArmorMod': 30}",D:/python/lol_data/item/Locket of the Iron Solari
+305,Seeker's Armguard,265,"{'FlatMagicDamageMod': 30, 'FlatArmorMod': 15}",D:/python/lol_data/item/Seeker's Armguard
+306,Gargoyle Stoneplate,1250,"{'FlatSpellBlockMod': 60, 'FlatArmorMod': 60}",D:/python/lol_data/item/Gargoyle Stoneplate
+307,Spectre's Cowl,400,"{'FlatHPPoolMod': 250, 'FlatSpellBlockMod': 25}",D:/python/lol_data/item/Spectre's Cowl
+308,Mikael's Blessing,550,{'FlatHPPoolMod': 250},D:/python/lol_data/item/Mikael's Blessing
+309,Scarecrow Effigy,0,{},D:/python/lol_data/item/Scarecrow Effigy
+310,Stealth Ward,0,{},D:/python/lol_data/item/Stealth Ward
+311,Arcane Sweeper,0,{},D:/python/lol_data/item/Arcane Sweeper
+312,Lucent Singularity,0,{},D:/python/lol_data/item/Lucent Singularity
+313,Farsight Alteration,0,{},D:/python/lol_data/item/Farsight Alteration
+314,Oracle Lens,0,{},D:/python/lol_data/item/Oracle Lens
+315,Your Cut,0,{},D:/python/lol_data/item/Your Cut
+316,Rite Of Ruin,3000,"{'FlatCritChanceMod': 0.2, 'FlatMagicDamageMod': 60}",D:/python/lol_data/item/Rite Of Ruin
+317,Ardent Censer,450,"{'PercentMovementSpeedMod': 0.05, 'FlatMagicDamageMod': 35}",D:/python/lol_data/item/Ardent Censer
+318,Essence Reaver,500,"{'FlatPhysicalDamageMod': 55, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Essence Reaver
+319,Eye of the Herald,0,{},D:/python/lol_data/item/Eye of the Herald
+320,Kalista's Black Spear,0,{},D:/python/lol_data/item/Kalista's Black Spear
+321,Kalista's Black Spear,0,{},D:/python/lol_data/item/Kalista's Black Spear
+322,Dead Man's Plate,900,"{'PercentMovementSpeedMod': 0.05, 'FlatHPPoolMod': 300, 'FlatArmorMod': 45}",D:/python/lol_data/item/Dead Man's Plate
+323,Titanic Hydra,800,"{'FlatPhysicalDamageMod': 30, 'FlatHPPoolMod': 500}",D:/python/lol_data/item/Titanic Hydra
+324,Crystalline Bracer,100,{'FlatHPPoolMod': 200},D:/python/lol_data/item/Crystalline Bracer
+325,Lost Chapter,315,"{'FlatMPPoolMod': 300, 'FlatMagicDamageMod': 40}",D:/python/lol_data/item/Lost Chapter
+326,Catalyst of Aeons,550,"{'FlatHPPoolMod': 300, 'FlatMPPoolMod': 300}",D:/python/lol_data/item/Catalyst of Aeons
+327,Edge of Night,1050,"{'FlatPhysicalDamageMod': 50, 'FlatHPPoolMod': 325}",D:/python/lol_data/item/Edge of Night
+328,Spellthief's Edge,400,"{'FlatHPPoolMod': 10, 'FlatMagicDamageMod': 8}",D:/python/lol_data/item/Spellthief's Edge
+329,Frostfang,400,"{'FlatHPPoolMod': 70, 'FlatMagicDamageMod': 15}",D:/python/lol_data/item/Frostfang
+330,Shard of True Ice,400,"{'FlatHPPoolMod': 75, 'FlatMagicDamageMod': 40}",D:/python/lol_data/item/Shard of True Ice
+331,Steel Shoulderguards,400,"{'FlatPhysicalDamageMod': 3, 'FlatHPPoolMod': 30}",D:/python/lol_data/item/Steel Shoulderguards
+332,Runesteel Spaulders,400,"{'FlatPhysicalDamageMod': 6, 'FlatHPPoolMod': 100}",D:/python/lol_data/item/Runesteel Spaulders
+333,Pauldrons of Whiterock,400,"{'FlatPhysicalDamageMod': 15, 'FlatHPPoolMod': 250}",D:/python/lol_data/item/Pauldrons of Whiterock
+334,Relic Shield,400,"{'FlatHPPoolMod': 30, 'FlatMagicDamageMod': 5}",D:/python/lol_data/item/Relic Shield
+335,Targon's Buckler,400,"{'FlatHPPoolMod': 100, 'FlatMagicDamageMod': 10}",D:/python/lol_data/item/Targon's Buckler
+336,Bulwark of the Mountain,400,"{'FlatHPPoolMod': 250, 'FlatMagicDamageMod': 20}",D:/python/lol_data/item/Bulwark of the Mountain
+337,Spectral Sickle,400,"{'FlatPhysicalDamageMod': 5, 'FlatHPPoolMod': 10}",D:/python/lol_data/item/Spectral Sickle
+338,Harrowing Crescent,400,"{'FlatPhysicalDamageMod': 10, 'FlatHPPoolMod': 60}",D:/python/lol_data/item/Harrowing Crescent
+339,Black Mist Scythe,400,"{'FlatPhysicalDamageMod': 20, 'FlatHPPoolMod': 75}",D:/python/lol_data/item/Black Mist Scythe
+340,<rarityLegendary>Fire at Will</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>,0,{},D:/python/lol_data/item/<rarityLegendary>Fire at Will</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>
+341,<rarityLegendary>Death's Daughter</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>,0,{},D:/python/lol_data/item/<rarityLegendary>Death's Daughter</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>
+342,<rarityLegendary>Raise Morale</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>,0,{},D:/python/lol_data/item/<rarityLegendary>Raise Morale</rarityLegendary><br><subtitleLeft><silver>500 Silver Serpents</silver></subtitleLeft>
+343,Oblivion Orb,365,{'FlatMagicDamageMod': 30},D:/python/lol_data/item/Oblivion Orb
+344,Spectral Cutlass,3000,{'FlatPhysicalDamageMod': 70},D:/python/lol_data/item/Spectral Cutlass
+345,Imperial Mandate,450,{'FlatMagicDamageMod': 55},D:/python/lol_data/item/Imperial Mandate
+346,Bloodletter's Curse,3000,"{'FlatSpellBlockMod': 30, 'FlatMagicDamageMod': 70, 'FlatArmorMod': 30}",D:/python/lol_data/item/Bloodletter's Curse
+347,Force of Nature,700,"{'PercentMovementSpeedMod': 0.05, 'FlatHPPoolMod': 400, 'FlatSpellBlockMod': 60}",D:/python/lol_data/item/Force of Nature
+348,The Golden Spatula,687,"{'FlatPhysicalDamageMod': 70, 'FlatCritChanceMod': 0.3, 'PercentMovementSpeedMod': 0.1, 'FlatHPPoolMod': 250, 'FlatSpellBlockMod': 30, 'FlatMPPoolMod': 250, 'FlatMagicDamageMod': 120, 'FlatArmorMod': 30, 'PercentAttackSpeedMod': 0.5, 'PercentLifeStealMod': 0.1}",D:/python/lol_data/item/The Golden Spatula
+349,Horizon Focus,1050,"{'FlatHPPoolMod': 150, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Horizon Focus
+350,Cosmic Drive,815,"{'PercentMovementSpeedMod': 0.05, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Cosmic Drive
+351,Blighting Jewel,815,{'FlatMagicDamageMod': 25},D:/python/lol_data/item/Blighting Jewel
+352,Verdant Barrier,115,"{'FlatSpellBlockMod': 25, 'FlatMagicDamageMod': 20}",D:/python/lol_data/item/Verdant Barrier
+353,Riftmaker,1050,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 70}",D:/python/lol_data/item/Riftmaker
+354,Leeching Leer,465,"{'FlatHPPoolMod': 250, 'FlatMagicDamageMod': 20}",D:/python/lol_data/item/Leeching Leer
+355,Night Harvester,815,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Night Harvester
+356,Demonic Embrace,815,"{'FlatHPPoolMod': 350, 'FlatMagicDamageMod': 75}",D:/python/lol_data/item/Demonic Embrace
+357,Watchful Wardstone,1100,{'FlatHPPoolMod': 150},D:/python/lol_data/item/Watchful Wardstone
+358,Stirring Wardstone,350,{'FlatHPPoolMod': 80},D:/python/lol_data/item/Stirring Wardstone
+359,Bandleglass Mirror,265,{'FlatMagicDamageMod': 20},D:/python/lol_data/item/Bandleglass Mirror
+360,Vigilant Wardstone,1200,{'FlatHPPoolMod': 250},D:/python/lol_data/item/Vigilant Wardstone
+361,Crown of the Shattered Queen,465,"{'FlatHPPoolMod': 250, 'FlatMPPoolMod': 600, 'FlatMagicDamageMod': 70}",D:/python/lol_data/item/Crown of the Shattered Queen
+362,Shadowflame,700,"{'FlatHPPoolMod': 200, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Shadowflame
+363,Ironspike Whip,225,{'FlatPhysicalDamageMod': 30},D:/python/lol_data/item/Ironspike Whip
+364,Silvermere Dawn,425,"{'FlatPhysicalDamageMod': 40, 'FlatHPPoolMod': 300, 'FlatSpellBlockMod': 40}",D:/python/lol_data/item/Silvermere Dawn
+365,Death's Dance,525,"{'FlatPhysicalDamageMod': 55, 'FlatArmorMod': 45}",D:/python/lol_data/item/Death's Dance
+366,Chempunk Chainsword,500,"{'FlatPhysicalDamageMod': 55, 'FlatHPPoolMod': 250}",D:/python/lol_data/item/Chempunk Chainsword
+367,Staff of Flowing Water,450,"{'PercentMovementSpeedMod': 0.05, 'FlatMagicDamageMod': 35}",D:/python/lol_data/item/Staff of Flowing Water
+368,Moonstone Renewer,550,"{'FlatHPPoolMod': 200, 'FlatMagicDamageMod': 35}",D:/python/lol_data/item/Moonstone Renewer
+369,Echoes of Helia,400,"{'FlatHPPoolMod': 200, 'FlatMagicDamageMod': 30}",D:/python/lol_data/item/Echoes of Helia
+370,Goredrinker,200,"{'FlatPhysicalDamageMod': 55, 'FlatHPPoolMod': 400}",D:/python/lol_data/item/Goredrinker
+371,Stridebreaker,300,"{'FlatPhysicalDamageMod': 60, 'FlatHPPoolMod': 375, 'PercentAttackSpeedMod': 0.2}",D:/python/lol_data/item/Stridebreaker
+372,Divine Sunderer,700,"{'FlatPhysicalDamageMod': 40, 'FlatHPPoolMod': 300}",D:/python/lol_data/item/Divine Sunderer
+373,Liandry's Anguish,1200,"{'FlatMPPoolMod': 600, 'FlatMagicDamageMod': 80}",D:/python/lol_data/item/Liandry's Anguish
+374,Luden's Tempest,1250,"{'FlatMPPoolMod': 600, 'FlatMagicDamageMod': 80}",D:/python/lol_data/item/Luden's Tempest
+375,Everfrost,465,"{'FlatHPPoolMod': 250, 'FlatMPPoolMod': 600, 'FlatMagicDamageMod': 70}",D:/python/lol_data/item/Everfrost
+376,Rod of Ages,215,"{'FlatHPPoolMod': 400, 'FlatMPPoolMod': 400, 'FlatMagicDamageMod': 60}",D:/python/lol_data/item/Rod of Ages
+377,Bami's Cinder,200,{'FlatHPPoolMod': 300},D:/python/lol_data/item/Bami's Cinder
+378,Iceborn Gauntlet,700,"{'FlatHPPoolMod': 400, 'FlatArmorMod': 50}",D:/python/lol_data/item/Iceborn Gauntlet
+379,Turbo Chemtank,700,"{'FlatHPPoolMod': 500, 'FlatSpellBlockMod': 50}",D:/python/lol_data/item/Turbo Chemtank
+380,"Jak'Sho, The Protean",800,"{'FlatHPPoolMod': 400, 'FlatSpellBlockMod': 30, 'FlatArmorMod': 30}","D:/python/lol_data/item/Jak'Sho, The Protean"
+381,Radiant Virtue,600,"{'FlatHPPoolMod': 350, 'FlatSpellBlockMod': 30, 'FlatArmorMod': 30}",D:/python/lol_data/item/Radiant Virtue
+382,Noonquiver,300,"{'FlatPhysicalDamageMod': 30, 'PercentAttackSpeedMod': 0.15}",D:/python/lol_data/item/Noonquiver
+383,Galeforce,650,"{'FlatPhysicalDamageMod': 50, 'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.15}",D:/python/lol_data/item/Galeforce
+384,Kraken Slayer,400,"{'FlatPhysicalDamageMod': 40, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.3}",D:/python/lol_data/item/Kraken Slayer
+385,Immortal Shieldbow,625,"{'FlatPhysicalDamageMod': 50, 'FlatCritChanceMod': 0.2, 'PercentLifeStealMod': 0.1}",D:/python/lol_data/item/Immortal Shieldbow
+386,Navori Quickblades,400,"{'FlatPhysicalDamageMod': 65, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Navori Quickblades
+387,The Collector,425,"{'FlatPhysicalDamageMod': 55, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/The Collector
+388,Rageknife,600,{'PercentAttackSpeedMod': 0.25},D:/python/lol_data/item/Rageknife
+389,Duskblade of Draktharr,900,{'FlatPhysicalDamageMod': 60},D:/python/lol_data/item/Duskblade of Draktharr
+390,Eclipse,900,{'FlatPhysicalDamageMod': 60},D:/python/lol_data/item/Eclipse
+391,Prowler's Claw,800,{'FlatPhysicalDamageMod': 55},D:/python/lol_data/item/Prowler's Claw
+392,Serylda's Grudge,650,{'FlatPhysicalDamageMod': 45},D:/python/lol_data/item/Serylda's Grudge
+393,Serpent's Fang,625,{'FlatPhysicalDamageMod': 55},D:/python/lol_data/item/Serpent's Fang
+394,Axiom Arc,800,{'FlatPhysicalDamageMod': 55},D:/python/lol_data/item/Axiom Arc
+395,Sandshrike's Claw,0,{'FlatPhysicalDamageMod': 75},D:/python/lol_data/item/Sandshrike's Claw
+396,Syzygy,0,{'FlatPhysicalDamageMod': 80},D:/python/lol_data/item/Syzygy
+397,Draktharr's Shadowcarver,0,{'FlatPhysicalDamageMod': 75},D:/python/lol_data/item/Draktharr's Shadowcarver
+398,Frozen Fist,0,"{'FlatHPPoolMod': 550, 'FlatArmorMod': 70}",D:/python/lol_data/item/Frozen Fist
+399,Typhoon,0,"{'FlatPhysicalDamageMod': 65, 'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.1, 'PercentAttackSpeedMod': 0.3}",D:/python/lol_data/item/Typhoon
+400,Icathia's Curse,0,"{'FlatHPPoolMod': 450, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Icathia's Curse
+401,Vespertide,0,"{'FlatHPPoolMod': 400, 'FlatMagicDamageMod': 120}",D:/python/lol_data/item/Vespertide
+402,Upgraded Aeropack,0,"{'FlatHPPoolMod': 350, 'FlatMagicDamageMod': 120}",D:/python/lol_data/item/Upgraded Aeropack
+403,Liandry's Lament,0,"{'FlatMPPoolMod': 800, 'FlatMagicDamageMod': 110}",D:/python/lol_data/item/Liandry's Lament
+404,Eye of Luden,0,"{'FlatMPPoolMod': 800, 'FlatMagicDamageMod': 100}",D:/python/lol_data/item/Eye of Luden
+405,Eternal Winter,0,"{'FlatHPPoolMod': 350, 'FlatMPPoolMod': 800, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Eternal Winter
+406,Ceaseless Hunger,0,"{'FlatPhysicalDamageMod': 70, 'FlatHPPoolMod': 550}",D:/python/lol_data/item/Ceaseless Hunger
+407,Dreamshatter,0,"{'FlatPhysicalDamageMod': 70, 'FlatHPPoolMod': 475, 'PercentAttackSpeedMod': 0.3}",D:/python/lol_data/item/Dreamshatter
+408,Deicide,0,"{'FlatPhysicalDamageMod': 60, 'FlatHPPoolMod': 450}",D:/python/lol_data/item/Deicide
+409,Infinity Force,0,"{'FlatPhysicalDamageMod': 50, 'FlatHPPoolMod': 400, 'PercentAttackSpeedMod': 0.43}",D:/python/lol_data/item/Infinity Force
+410,Reliquary of the Golden Dawn,0,"{'FlatHPPoolMod': 400, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",D:/python/lol_data/item/Reliquary of the Golden Dawn
+411,Shurelya's Requiem,0,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 65}",D:/python/lol_data/item/Shurelya's Requiem
+412,Starcaster,0,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 65}",D:/python/lol_data/item/Starcaster
+413,Equinox,0,"{'FlatHPPoolMod': 400, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",D:/python/lol_data/item/Equinox
+414,Caesura,0,"{'FlatHPPoolMod': 350, 'FlatMPPoolMod': 800, 'FlatMagicDamageMod': 90}",D:/python/lol_data/item/Caesura
+415,Leviathan,0,{'FlatHPPoolMod': 1050},D:/python/lol_data/item/Leviathan
+416,The Unspoken Parasite,0,"{'FlatHPPoolMod': 550, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",D:/python/lol_data/item/The Unspoken Parasite
+417,Primordial Dawn,0,"{'FlatHPPoolMod': 500, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",D:/python/lol_data/item/Primordial Dawn
+418,Infinite Convergence,0,"{'FlatHPPoolMod': 550, 'FlatMPPoolMod': 550, 'FlatMagicDamageMod': 80}",D:/python/lol_data/item/Infinite Convergence
+419,Youmuu's Wake,0,{'FlatPhysicalDamageMod': 75},D:/python/lol_data/item/Youmuu's Wake
+420,Seething Sorrow,0,"{'FlatPhysicalDamageMod': 40, 'FlatMagicDamageMod': 50, 'PercentAttackSpeedMod': 0.35}",D:/python/lol_data/item/Seething Sorrow
+421,Edge of Finality,0,"{'FlatPhysicalDamageMod': 95, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Edge of Finality
+422,Flicker,0,"{'FlatPhysicalDamageMod': 85, 'FlatCritChanceMod': 0.2}",D:/python/lol_data/item/Flicker
+423,Cry of the Shrieking City,0,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 60}",D:/python/lol_data/item/Cry of the Shrieking City
+424,Gangplank Placeholder,0,{},D:/python/lol_data/item/Gangplank Placeholder
+425,Anathema's Chains,800,{'FlatHPPoolMod': 650},D:/python/lol_data/item/Anathema's Chains
+426,Abyssal Mask,700,"{'FlatHPPoolMod': 300, 'FlatSpellBlockMod': 60}",D:/python/lol_data/item/Abyssal Mask
