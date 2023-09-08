@@ -1,10 +1,8 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import json
 import os
-from PIL import Image
 import requests
 
 folder_project = "D:/python/lol_data"
