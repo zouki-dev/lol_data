@@ -254,7 +254,7 @@ def correct_json_champion(data_champion, champion):
         data_champion["data"][champion]["spells"][1]['cooldownBurn'] = "10/5/0 at lvl 1/6/11\nCan be recast while Yuumi is attached\n5s CD if Yuumi is CCd" + " "
     if champion == "Zeri":
         data_champion["data"][champion]["spells"][0]['cooldownBurn'] = "Depends on AS, capped at 1.5"
-        data_champion["data"][champion]["spells"][2]['cooldownBurn'] = str_single(data_champion["data"][champion]["spells"][2]['cooldownBurn']) + "\n reduced by 1.5 for champion hit with Q (or critical W) + 0.5s by passiv"
+        data_champion["data"][champion]["spells"][2]['cooldownBurn'] = str_single(data_champion["data"][champion]["spells"][2]['cooldownBurn']) + "\nLasts 5s (CD reduced by Q AA and critW)"
     if champion == "Zilean":
         data_champion["data"][champion]["spells"][2]['cooldownBurn'] = str_single(data_champion["data"][champion]["spells"][2]['cooldownBurn']) + " (reduces Q+E CD by 10s)"
 
