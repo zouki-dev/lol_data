@@ -13,3 +13,6 @@ def passive(stX, champion, data_champion, folder_spell_image=folder_spell_image)
 
     if champion == "Anivia":
         stX.text("CD : Plop")
+
+#Passifs
+# urgot, taric, anivia, zac, asol, azir, camille, corki, darius,mundo, fiora, gp, illaoi, irelia, ivern, jhin, jinx, viego, vex,ksante, kaisa, kalista, karma, katarina, kayle, khazix, kindred, kog, leona, lillia, lucian, malph, malz, maokai, milio, mf, morde, nilah (xp), ornn, poppy, quinn, rakan, reksai, renata, rengar, rumble, ryze, samira, sej, senna, swain, syndra, taric, tristana, twitch, urgot, varus, velkoz, vex, viego, viktor, vlad, xayah, xerath, yorick, zac, ziggs, zyra
