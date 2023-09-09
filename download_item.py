@@ -11,6 +11,10 @@ url_item = "http://ddragon.leagueoflegends.com/cdn/13.17.1/img/item/"
 
 def download_item(folder_project=folder_project,folder_item=folder_item,url_item_all=url_item_all,url_item=url_item):
     st.subheader("write a csv item.csv")
+
+    items = pd.read_csv("./item.csv")
+    st.write(items)
+
     r = requests.get(url_item_all, allow_redirects=True)
     open(folder_project + "/" + "item.json", 'wb').write(r.content)
 

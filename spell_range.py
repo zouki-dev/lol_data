@@ -6,6 +6,7 @@ import os
 from PIL import Image
 import requests
 import numpy as np
+from passive import passive
 
 folder_project = "."
 folder_champion = folder_project+"/champion"
@@ -27,7 +28,7 @@ def spell_range(folder_champion=folder_champion, folder_spell_image=folder_spell
         with open(folder_champion+"/"+champion+".json",encoding='utf-8') as f:
             data_champion = json.load(f)["data"][champion]
         attackrange = data_champion["stats"]["attackrange"]
-        stX.write("Attack range : "+str(attackrange))
+        stX.text("Attack range : "+str(attackrange))
 
         spells = data_champion["spells"]
         for spell in spells:
@@ -37,19 +38,24 @@ def spell_range(folder_champion=folder_champion, folder_spell_image=folder_spell
             stX.image(im)
 
             if any([s!=spell['range'][0] for s in spell['range']]):
-                stX.write("range: "+str(spell['range']))
+                stX.text("Range : "+str(spell['range']))
             else:
                 if spell['range'][0]>20 and spell['range'][0]<20000 :
-                    stX.write("range : "+str(spell['range'][0]))
+                    stX.text("Range : "+str(spell['range'][0]))
                 else :
                     if spell['range'][0]>=20000:
-                        stX.write("range :Global")
+                        stX.text("Range : Global")
                     else:
-                        stX.write("range : X")
-                stX.write("CD : "+str(spell["cooldownBurn"]))
+                        stX.text("Range : X")
+            stX.text("CD : "+str(spell["cooldownBurn"]))
 
     for i, champion in enumerate(champions):
         plot_spell_img_and_range(champion, stX[i])
+        with open(folder_champion+"/"+champion+".json",encoding='utf-8') as f:
+            data_champion = json.load(f)["data"][champion]
+
+        stX[i].subheader("Passive")
+        passive(stX[i], champion, data_champion, folder_spell_image=folder_spell_image)
 
     with st.expander("json"):
         f = open(folder_champion+"/Ashe.json",encoding='utf-8')

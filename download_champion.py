@@ -3,6 +3,7 @@ import os.path
 import requests
 import json
 import streamlit as st
+from correct_json_champion import correct_json_champion
 
 folder_project = "."
 folder_champion = folder_project+"/champion"
@@ -11,6 +12,7 @@ url_file_champion_json = "http://ddragon.leagueoflegends.com/cdn/13.17.1/data/en
 
 folder_spell_image = folder_project+"/spell_image"
 url_spells = "http://ddragon.leagueoflegends.com/cdn/13.17.1/img/spell/"
+url_spell_passive = "http://ddragon.leagueoflegends.com/cdn/13.17.1/img/passive/"
 
 def download_champion(folder_champion=folder_champion, url_champion=url_champion, url_file_champion_json=url_file_champion_json):
     r = requests.get(url_file_champion_json, allow_redirects=True)
@@ -22,6 +24,8 @@ def download_champion(folder_champion=folder_champion, url_champion=url_champion
 
     st.subheader("nb_champion : " + str(len(champions)))
     for i,champion in enumerate(champions):
+        if not os.path.exists(folder_spell_image+"/"+champion):
+            os.mkdir(folder_spell_image+"/"+champion)
         st.text(str(i)+ " "+ champion)
         r = requests.get(url_champion + champion+".json", allow_redirects=True)
 
@@ -31,30 +35,7 @@ def download_champion(folder_champion=folder_champion, url_champion=url_champion
             data_champion = json.loads(f.read())
         # st.write(data_champion)
 
-        # correct champion json
-        if champion == "Xayah":
-            data_champion["data"][champion]["spells"][0]['range'] = [1100]
-            data_champion["data"][champion]["spells"][2]['range'] = [25000]
-            data_champion["data"][champion]["spells"][3]['range'] = [1060]
-        if champion == "Aatrox":
-            data_champion["data"][champion]["spells"][0]['range'] = "625 /475 front, 100 behind /200 +300 radius"
-
-            data_champion["data"][champion]["spells"][2]['range'] = [825]
-            data_champion["data"][champion]["spells"][3]['range'] = [300]
-        if champion == "Milio":
-            data_champion["data"][champion]["spells"][1]['range'] = "650/700, gives ally 10/12.5/15/17.5/20% bonus range"
-        if champion == "Kayle":
-            data_champion["data"][champion]["stats"]["attackrange"] = "175/525/625 at lvl 1/6/16"
-        if champion == "Gnar":
-            data_champion["data"][champion]["stats"]["attackrange"] = "175 /400+6/lvl(500 max)"
-        if champion == "Nidalee":
-            data_champion["data"][champion]["stats"]["attackrange"] = "125/525"
-        if champion == "Elise":
-            data_champion["data"][champion]["stats"]["attackrange"] = "125/550"
-        if champion == "Jayce":
-            data_champion["data"][champion]["stats"]["attackrange"] = "125/500"
-        if champion == "Jinx":
-            data_champion["data"][champion]["stats"]["attackrange"] = "525, 605/635/665/695/725"
+        correct_json_champion(data_champion, champion)
 
         with open(folder_champion+"/"+champion+".json", "w") as f:
             json.dump(data_champion,f)
@@ -63,8 +44,9 @@ def download_champion(folder_champion=folder_champion, url_champion=url_champion
         for spell in spells:
             spell_name = spell["image"]["full"]
             r = requests.get(url_spells + spell_name, allow_redirects=True)
-            if not os.path.exists(folder_spell_image+"/"+champion):
-                os.mkdir(folder_spell_image+"/"+champion)
             open(folder_spell_image+"/"+champion + "/" + spell_name, 'wb').write(r.content)
 
+        image_passive_name = data_champion["data"][champion]["passive"]["image"]["full"]
+        r2 = requests.get(url_spell_passive + image_passive_name, allow_redirects=True)
+        open(folder_spell_image + "/" + champion + "/" + image_passive_name, 'wb').write(r2.content)
     st.balloons()
