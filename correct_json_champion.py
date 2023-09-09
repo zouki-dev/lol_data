@@ -21,15 +21,21 @@ def correct_json_champion(data_champion, champion):
         data_champion["data"][champion]["spells"][2]['range'] = [825]
         data_champion["data"][champion]["spells"][3]['range'] = [300]
     if champion == "Ashe":
-        data_champion["data"][champion]["spells"][0]['range'] = "X"
+        data_champion["data"][champion]["spells"][0]['range'] = " X "
     if champion == "Bard":
         data_champion["data"][champion]["spells"][0]['range'] = "850 (+300 units behind ennemy hit)"
+    if champion == "Chogath":
+        data_champion["data"][champion]["spells"][2]['range'] = "3 next AA have 175 range \nRange of spikes : 650 x 340-500 (based on Size)"
     if champion == "Elise":
         data_champion["data"][champion]["spells"][0]['range'] = str_single(data_champion["data"][champion]["spells"][0]['range']) + " (Human)\nRange : 475 (Spider)"
         data_champion["data"][champion]["spells"][1]['range'] = str_single(data_champion["data"][champion]["spells"][1]['range']) + " (Human)\nRange : X  (Spider)"
         data_champion["data"][champion]["spells"][2]['range'] = str_single(data_champion["data"][champion]["spells"][2]['range']) + " (Human)\nRange : 700 (Spider)"
+    if champion == "Evelynn":
+        data_champion["data"][champion]["spells"][3]['range'] = "500 radius effect\nRange of blink : 700"
     if champion == "Ekko":
-        data_champion["data"][champion]["spells"][3]['range'] = "Global / 375 radius dammage"
+        data_champion["data"][champion]["spells"][3]['range'] = "Global / 375 radius damage"
+    if champion == "Garen":
+        data_champion["data"][champion]["spells"][0]['range'] = " X "
     if champion == "Gnar":
         data_champion["data"][champion]["spells"][0]['range'] = str_single(data_champion["data"][champion]["spells"][0]['range']) + " (Mini)\nRange : 1150 (Mega)"
         data_champion["data"][champion]["spells"][1]['range'] = str_single(data_champion["data"][champion]["spells"][1]['range']) + " (Mini)\nRange : 550 (Mega)"
@@ -127,6 +133,8 @@ def correct_json_champion(data_champion, champion):
 
 
     #Attack range
+    if champion == "Aphelios":
+        data_champion["data"][champion]["stats"]["attackrange"] = str_single(data_champion["data"][champion]["stats"]["attackrange"]) + " CHAMPION NOT UPDATED"
     if champion == "Elise":
         data_champion["data"][champion]["stats"]["attackrange"] = str_single(data_champion["data"][champion]["stats"]["attackrange"]) + " / 125"
     if champion == "Gnar":
