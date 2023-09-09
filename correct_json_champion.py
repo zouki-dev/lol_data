@@ -25,7 +25,7 @@ def correct_json_champion(data_champion, champion):
     if champion == "Bard":
         data_champion["data"][champion]["spells"][0]['range'] = "850 (+300 units behind ennemy hit)"
     if champion == "Chogath":
-        data_champion["data"][champion]["spells"][2]['range'] = "3 next AA have 175 range \nRange of spikes : 650 x 340-500 (based on Size)"
+        data_champion["data"][champion]["spells"][2]['range'] = "3 next AA have 175 range \nRange of spikes : 650"
     if champion == "Elise":
         data_champion["data"][champion]["spells"][0]['range'] = str_single(data_champion["data"][champion]["spells"][0]['range']) + " (Human)\nRange : 475 (Spider)"
         data_champion["data"][champion]["spells"][1]['range'] = str_single(data_champion["data"][champion]["spells"][1]['range']) + " (Human)\nRange : X  (Spider)"
