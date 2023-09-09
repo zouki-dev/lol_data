@@ -4,15 +4,6 @@ from download_champion import download_champion
 from stats_champion import stats_champion
 from download_item import download_item
 st.set_page_config(layout="wide")
-streamlit_style = """
-			<style>
-			@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-			html, body, [class*="css"]  {
-			font-family: 'Roboto', sans-serif;
-			}
-			</style>
-			"""
 
 
 scripts = ["spell_range", "download_champion", "stats_champion", "download_item"]
