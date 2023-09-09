@@ -20,6 +20,10 @@ def correct_json_champion(data_champion, champion):
         data_champion["data"][champion]["spells"][0]['range'] = "625 /475 front, 100 behind /200 +300 radius"
         data_champion["data"][champion]["spells"][2]['range'] = [825]
         data_champion["data"][champion]["spells"][3]['range'] = [300]
+    if champion == "Ashe":
+        data_champion["data"][champion]["spells"][0]['range'] = "X"
+    if champion == "Bard":
+        data_champion["data"][champion]["spells"][0]['range'] = "850 (+300 units behind ennemy hit)"
     if champion == "Elise":
         data_champion["data"][champion]["spells"][0]['range'] = str_single(data_champion["data"][champion]["spells"][0]['range']) + " (Human)\nRange : 475 (Spider)"
         data_champion["data"][champion]["spells"][1]['range'] = str_single(data_champion["data"][champion]["spells"][1]['range']) + " (Human)\nRange : X  (Spider)"
@@ -152,7 +156,7 @@ def correct_json_champion(data_champion, champion):
     if champion == "Riven":
         data_champion["data"][champion]["spells"][0]['cooldownBurn'] = str_single(data_champion["data"][champion]["spells"][0]['cooldownBurn']) + "  (4s between cast)"
     if champion == "Amumu":
-        data_champion["data"][champion]["spells"][0]['cooldownBurn'] = str_single(data_champion["data"][champion]["spells"][0]['cooldownBurn']) + "  (3s between charges)"
+        data_champion["data"][champion]["spells"][0]['cooldownBurn'] = str_single(data_champion["data"][champion]["spells"][0]['cooldownBurn']) + " (between charges)\nRecharge : 16/15.5/15/14.5/14 (up to 2 charges)"
     if champion == "Akali":
         data_champion["data"][champion]["spells"][2]['cooldownBurn'] = str_single(data_champion["data"][champion]["spells"][2]['cooldownBurn']) + "  (3s recast)"
     if champion == "Akshan":
