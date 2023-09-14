@@ -6,16 +6,16 @@ from download_item import download_item
 st.set_page_config(layout="wide")
 
 
-scripts = ["spell_range", "download_champion", "stats_champion", "download_item"]
+scripts = ["Spell CD / Range", "Update patch-note champion", "stats_champion.json", "download_item"]
 script = st.sidebar.selectbox("Select scrpit",scripts)
 
-if script == "spell_range":
+if script == "Spell CD / Range":
     spell_range()
 
-if script == "download_champion":
+if script == "Update patch-note champion":
     download_champion()
 
-if script == "stats_champion":
+if script == "stats_champion.json":
     stats_champion()
 
 if script == "download_item":

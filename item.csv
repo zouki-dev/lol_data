@@ -98,11 +98,11 @@
 96,Trinity Force,3000,"{'FlatPhysicalDamageMod': 30, 'FlatHPPoolMod': 200, 'PercentAttackSpeedMod': 0.33}",./item/Trinity Force
 97,Heartsteel,3000,{'FlatHPPoolMod': 800},./item/Heartsteel
 98,Runaan's Hurricane,3000,"{'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.55}",./item/Runaan's Hurricane
-99,Statikk Shiv,3000,"{'FlatPhysicalDamageMod': 45, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.3}",./item/Statikk Shiv
+99,Statikk Shiv,3000,"{'FlatPhysicalDamageMod': 50, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.3}",./item/Statikk Shiv
 100,Rabadon's Deathcap,3000,{'FlatMagicDamageMod': 80},./item/Rabadon's Deathcap
 101,Wit's End,3000,"{'FlatPhysicalDamageMod': 40, 'FlatSpellBlockMod': 40, 'PercentAttackSpeedMod': 0.4}",./item/Wit's End
 102,Rapid Firecannon,3000,"{'FlatPhysicalDamageMod': 30, 'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.15}",./item/Rapid Firecannon
-103,Stormrazor,3000,"{'FlatPhysicalDamageMod': 50, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.15}",./item/Stormrazor
+103,Stormrazor,3000,"{'FlatPhysicalDamageMod': 55, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.15}",./item/Stormrazor
 104,Lich Bane,3000,"{'PercentMovementSpeedMod': 0.1, 'FlatMagicDamageMod': 85}",./item/Lich Bane
 105,Banshee's Veil,3000,"{'FlatSpellBlockMod': 55, 'FlatMagicDamageMod': 90}",./item/Banshee's Veil
 106,Redemption,3000,{'FlatHPPoolMod': 300},./item/Redemption
@@ -257,11 +257,11 @@
 255,Heartsteel,700,{'FlatHPPoolMod': 800},./item/Heartsteel
 256,Runaan's Hurricane,1000,"{'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.4}",./item/Runaan's Hurricane
 257,Zeal,200,"{'FlatCritChanceMod': 0.15, 'PercentMovementSpeedMod': 0.05, 'PercentAttackSpeedMod': 0.15}",./item/Zeal
-258,Statikk Shiv,400,"{'FlatPhysicalDamageMod': 45, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.3}",./item/Statikk Shiv
+258,Statikk Shiv,400,"{'FlatPhysicalDamageMod': 50, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.3}",./item/Statikk Shiv
 259,Rabadon's Deathcap,1100,{'FlatMagicDamageMod': 120},./item/Rabadon's Deathcap
 260,Wit's End,950,"{'FlatPhysicalDamageMod': 40, 'FlatSpellBlockMod': 40, 'PercentAttackSpeedMod': 0.4}",./item/Wit's End
 261,Rapid Firecannon,850,"{'FlatPhysicalDamageMod': 30, 'FlatCritChanceMod': 0.2, 'PercentMovementSpeedMod': 0.07, 'PercentAttackSpeedMod': 0.15}",./item/Rapid Firecannon
-262,Stormrazor,400,"{'FlatPhysicalDamageMod': 50, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.15}",./item/Stormrazor
+262,Stormrazor,400,"{'FlatPhysicalDamageMod': 55, 'FlatCritChanceMod': 0.2, 'PercentAttackSpeedMod': 0.15}",./item/Stormrazor
 263,Lich Bane,550,"{'PercentMovementSpeedMod': 0.08, 'FlatMagicDamageMod': 85}",./item/Lich Bane
 264,Banshee's Veil,700,"{'FlatSpellBlockMod': 45, 'FlatMagicDamageMod': 80}",./item/Banshee's Veil
 265,Aegis of the Legion,450,"{'FlatSpellBlockMod': 30, 'FlatArmorMod': 30}",./item/Aegis of the Legion
@@ -296,7 +296,7 @@
 294,Maw of Malmortius,275,"{'FlatPhysicalDamageMod': 65, 'FlatSpellBlockMod': 50}",./item/Maw of Malmortius
 295,Zhonya's Hourglass,350,"{'FlatMagicDamageMod': 80, 'FlatArmorMod': 45}",./item/Zhonya's Hourglass
 296,Ionian Boots of Lucidity,650,{'FlatMovementSpeedMod': 45},./item/Ionian Boots of Lucidity
-297,Spear Of Shojin,525,"{'FlatPhysicalDamageMod': 60, 'FlatHPPoolMod': 500}",./item/Spear Of Shojin
+297,Spear Of Shojin,525,"{'FlatPhysicalDamageMod': 55, 'FlatHPPoolMod': 500}",./item/Spear Of Shojin
 298,Morellonomicon,715,"{'FlatHPPoolMod': 200, 'FlatMagicDamageMod': 90}",./item/Morellonomicon
 299,Zephyr,3000,"{'PercentMovementSpeedMod': 0.1, 'PercentAttackSpeedMod': 0.5}",./item/Zephyr
 300,Guardian's Blade,950,"{'FlatPhysicalDamageMod': 30, 'FlatHPPoolMod': 150}",./item/Guardian's Blade
@@ -360,7 +360,7 @@
 358,Stirring Wardstone,350,{'FlatHPPoolMod': 80},./item/Stirring Wardstone
 359,Bandleglass Mirror,265,{'FlatMagicDamageMod': 20},./item/Bandleglass Mirror
 360,Vigilant Wardstone,1200,{'FlatHPPoolMod': 250},./item/Vigilant Wardstone
-361,Crown of the Shattered Queen,465,"{'FlatHPPoolMod': 250, 'FlatMPPoolMod': 600, 'FlatMagicDamageMod': 70}",./item/Crown of the Shattered Queen
+361,Crown of the Shattered Queen,465,"{'FlatHPPoolMod': 250, 'FlatMPPoolMod': 600, 'FlatMagicDamageMod': 85}",./item/Crown of the Shattered Queen
 362,Shadowflame,700,"{'FlatHPPoolMod': 200, 'FlatMagicDamageMod': 100}",./item/Shadowflame
 363,Ironspike Whip,225,{'FlatPhysicalDamageMod': 30},./item/Ironspike Whip
 364,Silvermere Dawn,425,"{'FlatPhysicalDamageMod': 40, 'FlatHPPoolMod': 300, 'FlatSpellBlockMod': 40}",./item/Silvermere Dawn
@@ -413,7 +413,7 @@
 411,Shurelya's Requiem,0,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 65}",./item/Shurelya's Requiem
 412,Starcaster,0,"{'FlatHPPoolMod': 300, 'FlatMagicDamageMod': 65}",./item/Starcaster
 413,Equinox,0,"{'FlatHPPoolMod': 400, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",./item/Equinox
-414,Caesura,0,"{'FlatHPPoolMod': 350, 'FlatMPPoolMod': 800, 'FlatMagicDamageMod': 90}",./item/Caesura
+414,Caesura,0,"{'FlatHPPoolMod': 350, 'FlatMPPoolMod': 800, 'FlatMagicDamageMod': 105}",./item/Caesura
 415,Leviathan,0,{'FlatHPPoolMod': 1050},./item/Leviathan
 416,The Unspoken Parasite,0,"{'FlatHPPoolMod': 550, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",./item/The Unspoken Parasite
 417,Primordial Dawn,0,"{'FlatHPPoolMod': 500, 'FlatSpellBlockMod': 40, 'FlatArmorMod': 40}",./item/Primordial Dawn

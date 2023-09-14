@@ -3,18 +3,20 @@ import json
 import os
 import requests
 import pandas as pd
+from urls_folders import folder_project, folder_champion, url_champion, url_file_champion_json
+from urls_folders import folder_spell_image, url_spells, url_spell_passive
+from urls_folders import folder_item, url_item_all, url_item
 
 folder_project = "."
-folder_item = folder_project+"/item"
-url_item_all = "http://ddragon.leagueoflegends.com/cdn/13.17.1/data/en_US/item.json"
-url_item = "http://ddragon.leagueoflegends.com/cdn/13.17.1/img/item/"
 
 def download_item(folder_project=folder_project,folder_item=folder_item,url_item_all=url_item_all,url_item=url_item):
-    st.subheader("write a csv item.csv")
-
     items = pd.read_csv("./item.csv")
     st.write(items)
+    with open("./item.csv", "r") as f:
+        st.sidebar.download_button("Download Data item.csv", f, file_name="item.csv")
+        st.download_button("Download data item.csv ", f, file_name="item.csv")
 
+    st.subheader("Updating... Wait for baloons")
     r = requests.get(url_item_all, allow_redirects=True)
     open(folder_project + "/" + "item.json", 'wb').write(r.content)
 
@@ -41,4 +43,3 @@ def download_item(folder_project=folder_project,folder_item=folder_item,url_item
     st.write(items_name)
     st.write(items_stat)
     st.write(data_items[keys[0]])
-

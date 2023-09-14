@@ -1,10 +1,9 @@
 import streamlit as st
 from PIL import Image
+from urls_folders import folder_project, folder_champion, url_champion, url_file_champion_json
+from urls_folders import folder_spell_image, url_spells, url_spell_passive
+from urls_folders import folder_item, url_item_all, url_item
 
-folder_project = "."
-folder_champion = folder_project+"/champion"
-folder_spell_image = folder_project+"/spell_image"
-url_spells = "http://ddragon.leagueoflegends.com/cdn/13.17.1/img/spell/"
 
 def passive(stX, champion, data_champion, folder_spell_image=folder_spell_image):
     passive_name = data_champion["passive"]["image"]["full"]

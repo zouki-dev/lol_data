@@ -7,17 +7,17 @@ from PIL import Image
 import requests
 import numpy as np
 from passive import passive
-
-folder_project = "."
-folder_champion = folder_project+"/champion"
-folder_spell_image = folder_project+"/spell_image"
-url_spells = "http://ddragon.leagueoflegends.com/cdn/13.17.1/img/spell/"
+from urls_folders import folder_project, folder_champion, url_champion, url_file_champion_json
+from urls_folders import folder_spell_image, url_spells, url_spell_passive
+from urls_folders import folder_item, url_item_all, url_item
 
 def spell_range(folder_champion=folder_champion, folder_spell_image=folder_spell_image, url_spells=url_spells):
+    with open("version_lol.txt","r") as f:
+        version = f.read()
     champions = [champion[:-5] for champion in os.listdir(folder_champion)]
     champions = np.sort(champions)
 
-    champions = st.multiselect("Champions :", champions)
+    champions = st.multiselect("Champions (patch "+version+") :", champions)
 
     def plot_spell_img_and_range(champion, stX, spell_id, folder_champion=folder_champion, url_spells=url_spells, folder_spell_image=folder_spell_image):
         with open(folder_champion + "/" + champion + ".json", encoding='utf-8') as f:
