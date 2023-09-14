@@ -11,6 +11,7 @@ from urls_folders import folder_item, url_item_all, url_item
 
 def stats_champion(folder_champion=folder_champion):
     champions = [champion[:-5] for champion in os.listdir(folder_champion)]
+    champions = np.sort(champions)
     champion = st.selectbox("Champions", champions)
 
     with open(folder_champion + "/" + champion + ".json", encoding='utf-8') as f:
